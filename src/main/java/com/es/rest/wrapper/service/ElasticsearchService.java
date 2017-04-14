@@ -79,7 +79,7 @@ public abstract class ElasticsearchService {
 
 	/**
 	 * Returns {@link QueryResponse} object retrieved from the specified query.
-	 * Uses synchronous communication.
+	 * Uses asynchronous communication.
 	 * 
 	 * @param clazz - Java class that is annotated with {@link ElasticDocument}
 	 * @param query - String that contains the query to send to Elasticsearch
