@@ -46,7 +46,7 @@ public class FooController {
  - Although you can return these response classes there is also methods to return a *ResponseEntity* that contains the proper HTTP status code and response in the body of the entity. 
 	 - *NOTE: currently this is only used with responses that include the Elasticsearch meta-data.*
 
-####References
+#### References
 - [Elasticsearch Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.2/index.html)
 - [X-Pack](https://www.elastic.co/products/x-pack/security)
 - [Swagger URL - http://localhost:8089/swagger-ui.html#](http://localhost:8089/swagger-ui.html#)
